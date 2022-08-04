@@ -1,0 +1,109 @@
+/* box start */
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 100px auto;
+    position: relative;
+    transition-delay: 1s;
+    animation-name: square;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+@keyframes square{
+    0%{
+        background-color: aquamarine;
+        left: 0;
+        right: 0;
+    }
+    25%{
+        background-color: green;
+        left: 500px;
+        right: 0px;
+    }
+    50%{
+        background-color: black;
+        left: 500px;
+        right: 500px;
+    }
+    75%{
+        background-color: blue;
+        left: 0px;
+        right: 500px;
+    }
+    100%{
+        left: 0px;
+        right: 0px;
+        border-radius: 50px;
+        transform: rotate(180deg);
+        background-color: blueviolet;
+    }
+}
+
+/* box 1 start */
+.box1{
+    height: 350px;
+    width: 350px;
+    border: 5px solid cornflowerblue;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    animation: box 2s infinite forwards;
+}
+@keyframes box{
+    0%{background-color: blueviolet;
+        transform: scale(1);
+    
+    }
+    25%{
+        border-color: red;
+        transform: scale(1.1);
+    
+}
+50%{
+    border-color: coral;
+    transform: scale(1.2);
+}
+75%{
+    border-color: darkgreen;
+    transform: scale(1.3);
+}
+100%{
+    border-color: darkolivegreen;
+    transform: scale(1.4);
+}
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border: 4px solid darkgreen;
+    animation: circle 3s infinite alternate;
+
+}
+@keyframes circle{
+    0%{
+        border-width: 5px;
+        transform: rotate(0deg);
+    }
+    25%{
+        border-width: 10px;
+        border-color: darkslategray;
+    }
+    50%{
+        border-width: 15px;
+        border-color: lightslategrey;
+    }
+    75%{
+        border-width: 30px;
+        border-color: dodgerblue;
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+}

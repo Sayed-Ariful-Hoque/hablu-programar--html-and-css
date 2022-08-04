@@ -1,0 +1,72 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color: blue;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    transition: 0.7s;
+}
+.box1:hover{
+    background-color: cornflowerblue;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+
+    background-color: crimson;
+    margin-top: 10px;
+    margin: 0 auto;
+    transform: scale(.90);
+    transition: .40s;
+}
+.box2:hover{
+    background-color: cadetblue;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    text-align: right;
+    background-color: green;
+    margin-top: 10px;
+    margin: 0 auto;
+    transform: translate( 50px,30px);
+    transition: .60s;
+}
+.box3:hover{
+    background-color: olive;
+}
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin-top: 10px;
+    margin: 30px 80px ;
+    transform: skew(40deg);
+    transition: .5s;
+    position: relative;
+    transition: .4s;
+}
+.box4 p{
+color: royalblue;
+text-align: center;
+position: relative;
+top: 40%;
+font-size: 40px;
+}
+.box4:hover{
+    background-color: orange;
+}
+.box5{
+    width: 200px;
+    height: 200px;
+    background-color: olive;
+    margin-top: 10px;
+    margin: 0 auto;
+    transform:rotate(35deg);
+    transition: .5s;
+}
+.box5:hover:hover{
+    background-color: darkslategray;
+}

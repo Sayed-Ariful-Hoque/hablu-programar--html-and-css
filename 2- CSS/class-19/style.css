@@ -1,0 +1,29 @@
+img{
+    width: 500px;
+    height: 300px;
+}
+img:hover{
+    opacity: 0.800;
+}
+.bg{
+    background: url(../../image/a/03.jpg);
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+.box p{
+    font-size: 60px;
+    color: gray;
+    background-color: wheat;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 150px;
+    opacity: 0.5;
+
+}
+.box p:hover{
+    background-color: grey;
+    color: ghostwhite;
+    opacity: 0.5;
+}

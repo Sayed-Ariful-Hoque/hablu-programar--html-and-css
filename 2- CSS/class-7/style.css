@@ -1,0 +1,11 @@
+p{
+    margin: 80px;
+    border: 1px solid red;
+    font-size: 30px;
+    outline-width: 5px;
+    outline-style: double;
+    outline-offset: 10px;
+    outline-color: orange;
+    outline: 6px double green;
+
+}

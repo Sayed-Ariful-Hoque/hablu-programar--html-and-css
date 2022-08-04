@@ -1,0 +1,36 @@
+.img1{
+    width: 400px;
+    float: left;
+}
+.img2{
+    width: 400px;
+    float: right;
+}
+p{
+clear: both;
+}
+
+.full-box{
+    float: left;
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    background-color: blue;
+}
+.box2{
+    width: 300px;
+    height: 200px;
+    background-color: green;
+}
+.box3{
+    width: 300px;
+    height: 200px;
+    background-color: olivedrab;
+}
+.box4{
+    width: 300px;
+    height: 200px;
+    background-color: orange;
+}
+

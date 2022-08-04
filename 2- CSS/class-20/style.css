@@ -1,0 +1,40 @@
+h1{
+ color: darkslategray;
+}
+h2{
+    color: #000fff;
+}
+h3{
+    color: rgb(255,0,0);
+}
+h4{
+    color: rgba(0,255, 0, 0.3);
+}
+h5{
+    color: #3266a8;
+}
+p{
+    color: #95a5a6;
+}
+.box{
+    width: 400px;
+    height: 400px;
+ 
+    background: linear-gradient(red,green);
+}
+.box2{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(rgba(255,255,255)60%,orange);
+}
+.box3{
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(red,green);
+}
+.box4{
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to left top , rgba(25,255,0),blue);
+}

@@ -1,0 +1,18 @@
+a:hover{
+    color: aqua;
+    background-color: green;
+}
+
+h2:nth-child(3){
+    color: green;
+}
+p::first-letter{
+    color: orange;
+    background-color: aqua;
+
+}
+h1::before{
+content: "vaiya ";
+color: darkolivegreen;
+
+}

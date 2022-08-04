@@ -1,0 +1,12 @@
+.p1{
+    border-width: 5px;
+    border-style: solid;
+    border-color: aqua;
+    border-radius: 10px;
+}
+#p2{
+    border: 3px solid orange;
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
